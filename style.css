@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap'); 
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Oxanium', cursive;
+}
+body{
+    text-align: center;
+    background: linear-gradient(to bottom, #6ab7f5, #fff
+);
+min-height: 100vh;
+}
+
+main{
+    
+    display: inline-block;
+    margin-top: 2%;
+    padding: 15px;
+    position: relative;
+}
+.pokedex{
+    width: 100%;
+    max-width: 500px;
+    border: 90px #333;
+}
+
+.pokemonIMG{
+    position: absolute;
+    left: 0;
+    bottom: 50%;
+    left: 17%;
+    top: 32%;
+    transform: translate(-0%, 0);
+    height: 20%;
+}
+.pokemonData{
+    font-family:'Silkscreen', cursive ;
+    position: absolute;
+    font-weight: 600;
+    color: #aaaaaa;
+    top: 30.4%;
+    right: 20%;
+    font-size: clamp(15px, 2vw, 14px);
+}
+.pokemonData2{
+    font-family:'Silkscreen', cursive ;
+    position: absolute;
+    font-weight: 450;
+    color: #aaaaaa;
+    top: 38%;
+    right: 27%;
+    font-size: clamp(9px, 2vw, 9px);
+}
+.pokemonData3{
+    font-family:'Silkscreen', cursive ;
+    position: absolute;
+    font-weight: 450;
+    color: #aaaaaa;
+    top: 38%;
+    right: 11%;
+    font-size: clamp(9px, 2vw, 9px);
+}
+.pokemonName{
+    font-family:'Silkscreen', cursive ;
+    color: #143306;
+    text-transform: capitalize;
+}
+.pokemonAbilities{
+    font-family:'Silkscreen', cursive ;
+    color: #49ce0b;
+    text-transform: capitalize;
+}
+.form{
+    position: absolute;
+    width:30%;
+    top: 70.6%;
+    right: 61%;
+
+}
+.inputSearch{
+    padding: 3%;
+    width: 120%;
+    outline: none;
+    border: 2px solid #333;
+    border-radius: 5px;
+    font-weight: 500px;
+    color: #3a444d;
+    font-size: clamp(8px, 5vw, 1rem);
+    box-shadow: -1px 2px 0 #888, -3px 5px 0 #333;
+    font-family:'Silkscreen', cursive ;
+}
+.fundoPoke{
+    position: absolute;
+    left: 0;
+    bottom: 50%;
+    left: 10%;
+    top: 29.9%;
+    transform: translate(-0%, 0);
+    height: 32%;
+    border: 2px solid #333;
+    border-radius: 15px;
+}
+.buttons{
+    position: absolute;
+    bottom: 10%;
+    left: 11%;
+    width: 33%;
+    transform: translate(-57, 0);
+    display: flex;
+    gap: 20px;
+}
+.buttom{
+    width: 50%;
+    padding: 4%;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-size: clamp(5px, 5vw, 1rem);
+    font-weight: 400;
+    color: white;
+    background-color: #444;
+    box-shadow: -2px 3px 0 #222, -3px 5px 0 #000;
+    font-family:'Silkscreen', cursive ;
+}
+
+.buttom:active{
+    box-shadow: inset -4px 4px 0 #222;
+    font-size: 0.9rem;
+}
+.tela{
+    position: absolute;
+    left: 0;
+    bottom: 50%;
+    left: 57.5%;
+    top: 29.9%;
+    transform: translate(-0%, 0);
+    height: 27%;
+    border: 2px solid #000;
+    border-radius: 15px;
+}
+.verde{
+    position: absolute;
+    left: 0;
+    bottom: 50%;
+    left: 57.9%;
+    top: 30.6%;
+    transform: translate(-0%, 0);
+    height: 4.8%;
+    border-radius: 14px 14px 0 0;
+    
+}
+.pokemonAbilities2{
+    font-family:'Silkscreen', cursive ;
+    color: #49ce0b;
+    text-transform: capitalize;
+    
+}
+.pokemonAbilities3{
+    font-family:'Silkscreen', cursive ;
+    color: #49ce0b;
+    text-transform: capitalize;
+}
+.Abil{
+    font-family:'Silkscreen', cursive ;
+    color: #888;
+    text-transform: capitalize;
+}
+.Type{
+    font-family:'Silkscreen', cursive ;
+    color: #888;
+    text-transform: capitalize;
+}
+.pokemonTypes{
+    font-family:'Silkscreen', cursive ;
+    color: #49ce0b;
+    text-transform: capitalize;
+}
+.pokemonAudio{
+    display: none;
+   
+}
+.musica{
+    position: absolute;
+    bottom: 10%;
+    left: 60%;
+    width: 33%;
+    transform: translate(-57, 0);
+    display: flex;
+    gap: 20px;
+}
+
+.playButton {
+    width: 50%;
+    padding: 4%;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-size: clamp(5px, 5vw, 1rem);
+    font-weight: 400;
+    color: white;
+    background-color: #444;
+    box-shadow: -2px 3px 0 #222, -3px 5px 0 #000;
+    font-family:'Silkscreen', cursive ;
+  }
+  .pauseButton {
+    width: 50%;
+    padding: 4%;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-size: clamp(5px, 5vw, 1rem);
+    font-weight: 400;
+    color: white;
+    background-color: #444;
+    box-shadow: -2px 3px 0 #222, -3px 5px 0 #000;
+    font-family:'Silkscreen', cursive ;
+  }
+  .playButton:active{
+    box-shadow: inset -4px 4px 0 #222;
+    font-size: 0.9rem;
+}
+  
+.pauseButton:active{
+    box-shadow: inset -4px 4px 0 #222;
+    font-size: 0.9rem;
+}
+  .volumeSlider{
+    position: absolute;
+    left: 60%;
+    top: 75%;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 200px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #ddd;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+  }
+  .volumeSlider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #4caf50;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    transform: translateY(-50%);
+  }
+  .volumeSlider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #fffb00;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    transform: translateY(-50%);
+  }
+  label{
+    right: 20%;
+    top: 65%;
+    position: absolute;
+    font-family:'Silkscreen', cursive ;
+    color: #570916;
+    text-transform: capitalize;
+  }
