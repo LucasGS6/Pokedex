@@ -104,7 +104,7 @@ main{
 }
 .buttons{
     position: absolute;
-    bottom: 10%;
+    bottom: 12%;
     left: 11%;
     width: 33%;
     transform: translate(-57, 0);
@@ -182,7 +182,7 @@ main{
 }
 .musica{
     position: absolute;
-    bottom: 10%;
+    bottom: 12%;
     left: 60%;
     width: 33%;
     transform: translate(-57, 0);
@@ -226,7 +226,7 @@ main{
   .volumeSlider{
     position: absolute;
     left: 60%;
-    top: 75%;
+    top: 73%;
     -webkit-appearance: none;
     appearance: none;
     width: 200px;

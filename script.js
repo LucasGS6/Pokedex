@@ -17,7 +17,7 @@ const volumeSlider = document.querySelector('.volumeSlider');
 let searchPokemon = 1;
 
 
-pokemonAudio.src = 'imagens/Audios/videoplayback.mp3';
+pokemonAudio.src = 'imagens/Audios/videoplayback (1).mp3';
 
 
 let isMusicPlaying = true;
